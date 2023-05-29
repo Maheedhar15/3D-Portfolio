@@ -262,7 +262,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Maheedhar15/3D-Portfolio',
   },
 ];
 
