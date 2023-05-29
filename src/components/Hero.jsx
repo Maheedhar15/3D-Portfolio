@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
 import { ComputersCanvas } from './canvas';
+import CV from '../assets/CV.pdf';
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">

@@ -9,7 +9,6 @@ import {
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas,
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,

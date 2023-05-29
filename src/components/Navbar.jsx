@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../style';
 import { logo, menu, close } from '../assets';
 import { navLinks } from '../constants';
+import CV from '../assets/CV.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -37,6 +38,20 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li
+            key={'CV'}
+            className={`${
+              active == 'CV' ? 'text-white' : 'text-secondary'
+            } font-poppins font-medium cursor-pointer text-[16px]`}
+            onClick={() => {
+              setToggle(!toggle);
+              setActive('CV');
+            }}
+          >
+            <a href={CV} download className="btn">
+              Download CV
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 items-center justify-end">
           <img
@@ -65,6 +80,20 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li
+                key={'CV'}
+                className={`${
+                  active == 'CV' ? 'text-white' : 'text-secondary'
+                } font-poppins font-medium cursor-pointer text-[16px]`}
+                onClick={() => {
+                  setToggle(!toggle);
+                  setActive('CV');
+                }}
+              >
+                <a href={CV} download className="btn">
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>

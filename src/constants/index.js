@@ -102,15 +102,15 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: 'git',
+    name: 'Git/Github',
     icon: git,
   },
   {
-    name: 'firebase',
+    name: 'Firebase',
     icon: firebase,
   },
   {
-    name: 'docker',
+    name: 'Docker',
     icon: docker,
   },
 ];
