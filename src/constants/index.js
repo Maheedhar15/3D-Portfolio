@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   creator,
+  crayon,
   web,
   javascript,
   typescript,
@@ -144,6 +145,16 @@ const experiences = [
     icon: reactimg,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
+    points: [
+      'Developing and maintaining web applications using React.js and other related technologies.',
+    ],
+  },
+  {
+    title: 'Full stack Developer',
+    company_name: 'Crayon Data',
+    icon: crayon,
+    iconBg: '#E6DEDD',
+    date: 'Jun 2023 - Aug 2023',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',

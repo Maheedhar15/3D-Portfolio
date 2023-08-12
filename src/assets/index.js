@@ -30,7 +30,7 @@ import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 import flask from './flask.png';
-
+import crayon from './crayon.jpeg';
 import reactimg from './react.png';
 import ml from './ml.png';
 import vue from './vue.png';
@@ -76,4 +76,5 @@ export {
   firebase,
   crash,
   portfolio,
+  crayon,
 };
